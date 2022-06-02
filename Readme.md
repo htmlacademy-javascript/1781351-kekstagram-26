@@ -1,7 +1,7 @@
 # Личный проект «Кекстаграм»
 
 * Студент: [Степан  Кирсанов](https://up.htmlacademy.ru/javascript/26/user/1781351).
-* Наставник: [Марк Коваленко](https://htmlacademy.ru/profile/id1434381).
+* Наставник: [Глеб Клецков](https://htmlacademy.ru/profile/id1487865).
 
 ---
 
