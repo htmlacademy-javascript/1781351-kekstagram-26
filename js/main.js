@@ -41,12 +41,12 @@ function getRandomInt(from, to) {
   const max = Math.floor(Math.max(Math.abs(from), Math.abs(to)));
   return Math.floor(Math.random() * (max - min + 1)) + min;
 };
-getRandomInt(1, 6);
+getRandomInt(1, 6)
 
 const getRandomArrayElem = (elements) => elements[getRandomInt(0, elements.length - 1)];
 
-let commentId = 0;
-const getCommentId = () => {
+const commentId = 0;
+const getCommentId = (comment) => {
   comment++;
   return comment;
 };
@@ -70,8 +70,6 @@ const creatRandomPhotos = () => Array.from({ length: PHOTO_AMOUNT }, (_item, ind
 creatRandomPhotos();
 
 //Проверка максимальной длины строки
-function checkStringLength(string, length) {
-  return string.length <= length;
-};
-
-
+//function checkStringLength(string, length) {
+//  return string.length <= length;
+//};
