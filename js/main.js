@@ -58,14 +58,14 @@ const creatRandomComments = () => ({
 	name: getRandomArrayElem(NAMES),
 });
 
-const creatRandomPhotos = () => Array.from({ length: PHOTO_AMOUNT }), (_item, index) => ({
+const creatRandomPhotos = () => Array.from({ length: PHOTO_AMOUNT }, (_item, index) => ({
 	id: index + 1,
 	url: `photos/${index + 1}.jpg.`,
 	description: getRandomArrayElem(DESCRIPTIONS),
 	likes: getRandomInt(LikesAmount.min, LikesAmount.max),
 	comments: Array.from({ length: getRandomInt(CommentsAmount.min, CommentsAmount.max) },
 		creatRandomComments)
-});
+}));
 
 creatRandomPhotos();
 
