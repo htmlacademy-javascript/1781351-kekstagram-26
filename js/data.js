@@ -61,4 +61,3 @@ creatRandomPost();
 //  return string.length <= length};
 
 export { creatRandomPost };
-
