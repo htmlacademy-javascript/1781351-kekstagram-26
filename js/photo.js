@@ -21,3 +21,4 @@ photoData.forEach(({ url, comments, likes }) => {
 });
 
 pictures.append(picturesFragment);
+
