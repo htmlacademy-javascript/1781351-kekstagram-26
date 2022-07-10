@@ -1,2 +1,3 @@
-import { creatRandomPost } from './data.js';
-creatRandomPost();
+import './data.js';
+import './util.js';
+import './photo.js';

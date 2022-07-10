@@ -14,4 +14,3 @@ const getCommentId = () => {
 };
 
 export { getRandomInt, getRandomArrayElem, getCommentId };
-

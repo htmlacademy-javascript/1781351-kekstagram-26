@@ -3,7 +3,7 @@
 import { creatRandomPost } from './data.js';
 
 const pictures = document.querySelector('.pictures');
-const template = document.querySelector('#picture').
+const pictureTemplate = document.querySelector('#picture').
   content.
   querySelector('.picture');
 
@@ -12,7 +12,7 @@ const photoData = creatRandomPost();
 const picturesFragment = document.createDocumentFragment();
 
 photoData.forEach(({ url, comments, likes }) => {
-  const pictureElement = template.cloneNode(true);
+  const pictureElement = pictureTemplate.cloneNode(true);
   pictureElement.querySelector('.picture__img').src = url;
   pictureElement.querySelector('.picture__comments').textContent =
     comments.length;
@@ -21,4 +21,3 @@ photoData.forEach(({ url, comments, likes }) => {
 });
 
 pictures.append(picturesFragment);
-
