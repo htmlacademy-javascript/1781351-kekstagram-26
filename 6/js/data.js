@@ -47,7 +47,7 @@ const creatRandomComments = () => ({
 
 const creatRandomPost = () => Array.from({ length: PHOTO_AMOUNT }, (_item, index) => ({
   id: index + 1,
-  url: `photos/${index + 1}.jpg.`,
+  url: `photos/${index + 1}.jpg`,
   description: getRandomArrayElem(DESCRIPTIONS),
   likes: getRandomInt(likesAmount.min, likesAmount.max),
   comments: Array.from({ length: getRandomInt(commentsAmount.min, commentsAmount.max) },
