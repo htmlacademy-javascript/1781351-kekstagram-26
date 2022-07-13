@@ -13,4 +13,8 @@ const getCommentId = () => {
   return comment;
 };
 
-export { getRandomInt, getRandomArrayElem, getCommentId };
+//Функция нажатия на Esc.
+const isEscapeKey = (evt) => evt.key === 'Escape';
+
+export { getRandomInt, getRandomArrayElem, getCommentId, isEscapeKey };
+
