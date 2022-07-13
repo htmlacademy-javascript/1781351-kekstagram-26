@@ -1,5 +1,4 @@
-import { creatRandomPost } from './data.js';
+import './data.js';
 import './util.js';
 import './photo.js';
-
-creatRandomPost();
+import './preview.js';
