@@ -13,4 +13,7 @@ const getCommentId = () => {
   return comment;
 };
 
-export { getRandomInt, getRandomArrayElem, getCommentId };
+// Действия закрытия на ~ESC~
+const isEscapeKey = (evt) => evt.key === 'Escape';
+
+export { getRandomInt, getRandomArrayElem, getCommentId, isEscapeKey };

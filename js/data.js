@@ -30,7 +30,7 @@ const COMMENTS = [
 
 const commentsAmount = {
   min: 1,
-  max: 6
+  max: 20
 };
 
 const likesAmount = {
