@@ -82,3 +82,4 @@ const createFullSizePicture = ({ url, likes, comments, description }) => {
 };
 
 export { createFullSizePicture };
+

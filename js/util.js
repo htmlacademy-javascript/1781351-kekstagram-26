@@ -17,3 +17,4 @@ const getCommentId = () => {
 const isEscapeKey = (evt) => evt.key === 'Escape';
 
 export { getRandomInt, getRandomArrayElem, getCommentId, isEscapeKey };
+
